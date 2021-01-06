@@ -7,11 +7,11 @@ class TransformCheck < Formula
 
   if OS.mac?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/transform-check/0.1.0/transform-check_macOS_64-bit.zip"
-    sha256 "bdd8fbec66502de58d69da523f230850c8c1b5af311a72faf9fe087f056492df"
+    sha256 "8c52781cd181e4ce2f11e6a40bb4a9c40deca7ee581592792b19e6bb2d0d957f"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/transform-check/0.1.0/transform-check_Tux_64-bit.zip"
-    sha256 "a46e158d0d361fea4918ebb87c2421c7cfd930a4f6522ba3c117e66e1a8a5a7c"
+    sha256 "54c50143a4f11825da0ec98d4d4b24b28ffc2d7597cdac96975e2e93f523459e"
   end
 
   def install

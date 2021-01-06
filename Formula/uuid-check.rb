@@ -7,11 +7,11 @@ class UuidCheck < Formula
 
   if OS.mac?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/uuid-check/0.1.0/uuid-check_macOS_64-bit.zip"
-    sha256 "5f8601f4eb8ea0d6d37bcf8550fe2cdf53858ab8d916dbb09eff7d3d3141d159"
+    sha256 "2ebbd36422039b26a08b7cc8b27bc63e6a526b338bf048b6fe166399b3156a09"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/uuid-check/0.1.0/uuid-check_Tux_64-bit.zip"
-    sha256 "ace13fdab72ce479f40b8db089a93497f4725b864e71e7fddbb1ea8ef17a3894"
+    sha256 "acf53be1f2899e848e8f725b3c7452a563d1539985b887219ac5164a9a18bfd8"
   end
 
   def install

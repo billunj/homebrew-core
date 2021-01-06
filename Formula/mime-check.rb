@@ -7,11 +7,11 @@ class MimeCheck < Formula
 
   if OS.mac?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/mime-check/0.1.0/mime-check_macOS_64-bit.zip"
-    sha256 "3caef993e7a763b84102e77f67a4235b6ac8bc0eb9973233a2f21b431e361785"
+    sha256 "54597d2610790c66823775b1bf4b1bd80e90995998c69906565a5ee8adac8885"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/mime-check/0.1.0/mime-check_Tux_64-bit.zip"
-    sha256 "e5526562d6de1ebb0e68946dd58ced40eba1b321699f9f76ac0525ab263c5a5b"
+    sha256 "14079c7da2548e7a5c43159be794123655aa1bdd56e45f97fc3473eed28dfc92"
   end
 
   def install

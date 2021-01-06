@@ -7,11 +7,11 @@ class Oc2kafka < Formula
 
   if OS.mac?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/oc2kafka/0.1.0/oc2kafka_macOS_64-bit.zip"
-    sha256 "b5b898a2342ad7feb3d87bf4b8e59f0c1e3c8705aa23b3ac00861fd4aa191b7d"
+    sha256 "7645dfe69d6ebb3767aa42907d205c9dd8fdc500d117e8b2f88c3014922dd6c7"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/oc2kafka/0.1.0/oc2kafka_Tux_64-bit.zip"
-    sha256 "1f8f0e5d99cdab2d60aa1c4881613faa8bbbd1ee2101749ba00aeabaa7242d98"
+    sha256 "539dc29986dac200309bbead6c4060422799237a1bf01b8fa42f5f389d1d212f"
   end
 
   def install

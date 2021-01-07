@@ -7,11 +7,11 @@ class IngesterLambdaTools < Formula
 
   if OS.mac?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/ingester-lambda-tools/0.1.0/ingester-lambda-tools_macOS_64-bit.zip"
-    sha256 "45258798c965e09c1e9f1380be993055e2b6f79bb65303f33eef72f855d71922"
+    sha256 "c7bc3bb6a340f5722c94e58f84ab573e83b380e0d5f21c2182d5a8bbf2fb0b71"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/ingester-lambda-tools/0.1.0/ingester-lambda-tools_Tux_64-bit.zip"
-    sha256 "c186296f0a08fd947cf9951be90c1a4f5e5113451d7b65a578cdfdaa6aaadc58"
+    sha256 "17ac509bffb2348ab93c4cec06f274bee5d04e61f69f7e599378134b4baf19d2"
   end
 
   def install

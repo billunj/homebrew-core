@@ -7,11 +7,11 @@ class IngesterLambdaGui < Formula
 
   if OS.mac?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/ingester-lambda-gui/0.1.0/ingester-lambda-gui_macOS_64-bit.zip"
-    sha256 "f4ddf43371890750d9097d1203256672f9c9e091c1d1988caee1f9b6afd9e1e4"
+    sha256 "d318d61d224b2ef66d94c52765c1a7a9a960e72c565bdc790d4a66e83c7107ca"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://im-saas-build-public-artifacts.s3-eu-west-1.amazonaws.com/tools/ingester-lambda-gui/0.1.0/ingester-lambda-gui_Tux_64-bit.zip"
-    sha256 "26540cee2c1848bc3442ad1a2873c9f3eeb41bdbd51e814b74ffcd545bacf07a"
+    sha256 "cf872b65ebc5b10cc48bdd6d8aff576fc351533e20f69a606cce6557f69cf691"
   end
 
   def install
